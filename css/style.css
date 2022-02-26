@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product-small-img img{
+    height: 200px;
+    margin: 5px 5px;
+    cursor: pointer;
+    display: flex;
+    opacity: .6;
+    width: 200px;
+}
+.product-small-img{
+    float: left;
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+.product-small-img-list{
+    display: flex;
+    
+}
+.product{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 850px;
+    height: 400px;
+}
+.img-container img{
+    height: 400px;
+}
+.img-container{
+    float: right;
+    padding: 10px;
+}
